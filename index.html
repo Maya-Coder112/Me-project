@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حنين محمد زيادة | المعرض الشخصي الفاخر</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="loader-screen" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">H</div>
+            <div class="loader-bar-container">
+                <div class="loader-bar" id="loaderBar"></div>
+            </div>
+            <div class="loader-percentage" id="loaderPercentage">0%</div>
+        </div>
+    </div>
+
+    <div class="custom-cursor"></div>
+    <div class="cursor-blur"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Haneen<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">الرئيسية</a></li>
+                <li><a href="#about">من أنا</a></li>
+                <li><a href="#education">التعليم</a></li>
+                <li><a href="#dream">حلمي</a></li>
+                <li><a href="#interests">اهتماماتي</a></li>
+                <li><a href="#gallery">المعرض</a></li>
+                <li><a href="#contact">تواصل معي</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-nav">لنبدأ التحدث ✨</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <div class="scroll-progress" id="scrollProgress"></div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="grid-background"></div>
+        <div class="blob-1"></div>
+        <div class="blob-2"></div>
+        
+        <div class="hero-container">
+            <div class="hero-text-side">
+                <div class="badge"><i class="fa-solid fa-wand-magic-sparkles"></i> طموحة • عازمة • حالمة</div>
+                <h1 class="hero-title">أنا <span class="gradient-text">حنين محمد زيادة</span></h1>
+                <h2 class="hero-subtitle">طالبة مصرية بعمر 15 عاماً بشغف <span class="typing-text"></span></h2>
+                <p class="hero-description">
+                    أؤمن بأن العمل الجاد، وتطوير الذات، واللطف هي مفاتيح المستقبل الناجح. أستعد اليوم لبناء الغد الذي أحلم به في مجال التكنولوجيا والابتكار.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">اكتشف المزيد</a>
+                    <a href="#dream" class="btn btn-secondary">رؤية حلمي</a>
+                    <a href="#" class="btn btn-outline" download><i class="fa-solid fa-download"></i> تحميل السيرة الذاتية</a>
+                </div>
+            </div>
+
+            <div class="hero-image-side">
+                <div class="image-wrapper-glow">
+                    <div class="glowing-ring"></div>
+                    <img src="Img/2.jpg" alt="حنين محمد زيادة" class="hero-profile-img">
+                    
+                    <div class="floating-card card-1">
+                        <i class="fa-solid fa-star gold-text"></i>
+                        <div>
+                            <h4>طالبة متفوقة</h4>
+                            <p>136.5 / 140</p>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fa-solid fa-graduation-cap purple-text"></i>
+                        <div>
+                            <h4>المحطة القادمة</h4>
+                            <p>مدرسة التكنولوجيا التطبيقية</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-bar-container">
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-face-smile"></i></div>
+                <div class="stat-info">
+                    <h3 class="counter" data-target="15">0</h3>
+                    <p>العمر</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="stat-info">
+                    <h3>العنبرية</h3>
+                    <p>سوهاج، مصر</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-book-open"></i></div>
+                <div class="stat-info">
+                    <h3><span class="counter" data-target="136">0</span>.5 / 140</h3>
+                    <p>درجة الترم الأول</p>
+                </div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon"><i class="fa-solid fa-bullseye"></i></div>
+                <div class="stat-info">
+                    <h3>1 هدف</h3>
+                    <p>مستقبل مشرق</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="section-header">
+            <span class="section-tag">نبذة عني</span>
+            <h2 class="section-title">تعرف على رحلتي وشغفي</h2>
+        </div>
+        <div class="about-container">
+            <div class="about-card-glass grid-2">
+                <div class="about-details">
+                    <h3>👋 مرحباً، أنا حنين محمد زيادة</h3>
+                    <p>طالبة مصرية تبلغ من العمر 15 عاماً، وأستعد للانتقال إلى الصف الأول الثانوي. أعيش في العنبرية، مركز المنشأة، محافظة سوهاج، مصر.</p>
+                    <p>أنا مؤمنة بأن الاجتهاد هو الطريق الوحيد لتحقيق الأحلام، لذلك أسعى دائماً إلى تطوير نفسي على المستوى الدراسي والشخصي واكتساب مهارات تواكب العصر الحديث.</p>
+                    
+                    <div class="timeline-mini">
+                        <div class="timeline-mini-item">
+                            <div class="t-icon"><i class="fa-solid fa-check"></i></div>
+                            <div class="t-text">التفوق في المرحلة الإعدادية بمجموع مشرف.</div>
+                        </div>
+                        <div class="timeline-mini-item">
+                            <div class="t-icon"><i class="fa-solid fa-spinner fa-spin"></i></div>
+                            <div class="t-text">التحضير للمرحلة الثانوية وبناء الشغف التكنولوجي.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="circular-frame">
+                        <img src="Img/1.jpg" alt="حنين محمد زيادة تفوق">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="section-header">
+            <span class="section-tag">التعليم والتفوق</span>
+            <h2 class="section-title">المسار الأكاديمي الحالي</h2>
+        </div>
+        <div class="education-container">
+            <div class="luxury-timeline-card">
+                <div class="timeline-badge-year">2026</div>
+                <div class="timeline-body">
+                    <h3>الشهادة الإعدادية - الترم الأول</h3>
+                    <p class="school-name"><i class="fa-solid fa-school"></i> مدارس محافظة سوهاج التعليمية</p>
+                    <div class="score-display-box">
+                        <div class="score-number gradient-text">136.5 / 140</div>
+                        <p>معدل تفوق أكاديمي استثنائي يعكس الجهد والتركيز المستمر.</p>
+                    </div>
+                    <div class="badges-row">
+                        <span class="badge-item"><i class="fa-solid fa-medal gold-text"></i> من أوائل المدرسة</span>
+                        <span class="badge-item"><i class="fa-solid fa-brain purple-text"></i> ذكاء أكاديمي</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="dream" id="dream">
+        <div class="section-header">
+            <span class="section-tag">رؤيتي للمستقبل</span>
+            <h2 class="section-title">حلمي الأكبر وطموحي المهني</h2>
+        </div>
+        <div class="dream-container card-glass-glow">
+            <div class="dream-content">
+                <h3><i class="fa-solid fa-rocket purple-text"></i> الالتحاق بمدرسة التكنولوجيا التطبيقية</h3>
+                <p>أطمح إلى الالتحاق بمدرسة التكنولوجيا التطبيقية المتقدمة بمدينة العاشر من رمضان، لأنها تمثل فرصة حقيقية لاكتساب مهارات عملية حديثة وبناء مستقبل مهني قوي ومتميز في مجال التكنولوجيا المتقدمة.</p>
+                <blockquote class="dream-quote">
+                    "التعليم التكنولوجي هو السلاح القادم لتغيير العالم، وأريد أن أكون في مقدمة هذا التغيير الإيجابي."
+                </blockquote>
+            </div>
+            <div class="dream-visual-container">
+                <div class="floating-tech-icons">
+                    <i class="fa-brands fa-html5 code-icon"></i>
+                    <i class="fa-brands fa-css3-alt code-icon"></i>
+                    <i class="fa-brands fa-js code-icon"></i>
+                    <i class="fa-solid fa-laptop-code code-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="interests" id="interests">
+        <div class="section-header">
+            <span class="section-tag">شغفي اليومي</span>
+            <h2 class="section-title">ما الذي أحب القيام به؟</h2>
+        </div>
+        <div class="interests-grid">
+            <div class="interest-card animate-hover-tilt">
+                <div class="interest-icon-box"><i class="fa-solid fa-book"></i></div>
+                <h3>قراءة الروايات</h3>
+                <p>قراءة الروايات والقصص الملهمة والقصص المشوقة التي توسع المدارك الفكرية.</p>
+            </div>
+            <div class="interest-card animate-hover-tilt">
+                <div class="interest-icon-box"><i class="fa-solid fa-microchip"></i></div>
+                <h3>استكشاف التكنولوجيا</h3>
+                <p>متابعة أحدث التقنيات، الابتكارات، والتحولات الرقمية حول العالم.</p>
+            </div>
+            <div class="interest-card animate-hover-tilt">
+                <div class="interest-icon-box"><i class="fa-solid fa-seedling"></i></div>
+                <h3>تطوير الذات</h3>
+                <p>الدراسة المستمرة والبحث عن مهارات جديدة ترفع من كفاءتي الشخصية والأكاديمية.</p>
+            </div>
+            <div class="interest-card animate-hover-tilt">
+                <div class="interest-icon-box"><i class="fa-solid fa-lightbulb"></i></div>
+                <h3>التعلم واكتساب المهارات</h3>
+                <p>الشغف بتعلم كل ما هو جديد في مجالات العلوم والتطبيقات الحديثة.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="personality" id="personality">
+        <div class="section-header">
+            <span class="section-tag">الهوية الشخصية</span>
+            <h2 class="section-title">كيف يصفني الآخرون؟</h2>
+        </div>
+        <div class="personality-container grid-2">
+            <div class="personality-cards">
+                <div class="p-card"><span class="p-emoji">😊</span> <h4>إيجابية ومرحة</h4></div>
+                <div class="p-card"><span class="p-emoji">🤝</span> <h4>اجتماعية وودودة</h4></div>
+                <div class="p-card"><span class="p-emoji">💡</span> <h4>مساعدة وداعمة لغيري</h4></div>
+                <div class="p-card"><span class="p-emoji">🚀</span> <h4>طموحة ومحددة لأهدافي</h4></div>
+                <div class="p-card"><span class="p-emoji">💎</span> <h4>تؤمن بالعمل الجاد والصبر</h4></div>
+            </div>
+            <div class="personality-quote-card">
+                <div class="avatar-mask">
+                    <img src="Img/1.jpg" alt="حنين محمد">
+                </div>
+                <p class="p-quote">"النجاح ليس وليد الصدفة، بل هو نتاج الالتزام اليومي والصبر على الصعاب وبناء الشخصية المتزنة."</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div class="section-header">
+            <span class="section-tag">لحظات وذكريات</span>
+            <h2 class="section-title">معرض الصور والأحداث المشرفة</h2>
+        </div>
+        <div class="gallery-wrapper">
+            <button class="gallery-nav prev" id="galleryPrev"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="gallery-slider-container">
+                <div class="gallery-track">
+                    <div class="gallery-item-circle">
+                        <img src="Img/1.jpg" alt="لحظة شرح وتألق" class="lightbox-trigger">
+                    </div>
+                    <div class="gallery-item-circle">
+                        <img src="1000159115.jpg" alt="لحظة التكريم والتفوق" class="lightbox-trigger">
+                    </div>
+                    <div class="gallery-item-circle">
+                        <img src="1000161060.png" alt="لقطة تصميم المعرض الشخصي" class="lightbox-trigger">
+                    </div>
+                </div>
+            </div>
+            <button class="gallery-nav next" id="galleryNext"><i class="fa-solid fa-chevron-left"></i></button>
+        </div>
+    </section>
+
+    <div class="lightbox" id="lightboxModal">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img class="lightbox-content" id="lightboxImg" src="" alt="معاينة كاملة">
+        <div id="lightboxCaption"></div>
+    </div>
+
+    <section class="quote-section">
+        <div class="quote-bg-glow"></div>
+        <div class="quote-content-box">
+            <i class="fa-solid fa-quote-right giant-quote-icon"></i>
+            <h2 class="animated-gradient-quote">Dream big, work hard, stay humble.</h2>
+            <p class="quote-sub-text">كل خطوة صغيرة تخطينها اليوم تبني المستقبل الذي تحلمين به غداً.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <span class="section-tag">قنوات الاتصال</span>
+            <h2 class="section-title">دعنا نبني جسراً للمستقبل</h2>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info-card">
+                <h3>معلومات التواصل الرسمي</h3>
+                <p>أنا منفتحة دائماً على الفرص التعليمية الجديدة، الصداقات الإيجابية، والتعاون المثمر.</p>
+                
+                <div class="info-list">
+                    <div class="info-link-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>العنبرية، المنشأة، سوهاج، مصر</span>
+                    </div>
+                    <div class="info-link-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:haneenziada15@gmail.com">haneenziada15@gmail.com</a>
+                    </div>
+                    <div class="info-link-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:01023456789">0102 345 6789</a>
+                    </div>
+                </div>
+
+                <div class="social-medias-row">
+                    <a href="#" class="social-icon-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-icon-btn"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-icon-btn"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="social-icon-btn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form-card">
+                <form id="portfolioContactForm" onsubmit="event.preventDefault(); alert('تم إرسال رسالتك بنجاح يا حنين!');">
+                    <div class="form-group-row">
+                        <div class="input-container">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">الاسم الكريم</label>
+                        </div>
+                        <div class="input-container">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">البريد الإلكتروني</label>
+                        </div>
+                    </div>
+                    <div class="input-container message-container">
+                        <textarea id="message" required placeholder=" " rows="5"></textarea>
+                        <label for="message">نص الرسالة أو المقترح...</label>
+                    </div>
+                    <button type="submit" class="btn btn-submit-glow">إرسال رسالة إليكِ <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>© 2026 حنين محمد زيادة. جميع الحقوق محفوظة.</p>
+            <p>صنع بكل شغف وحب وعزيمة نحو المستقبل وعالم التكنولوجيا والابتكار 💜</p>
+        </div>
+        <button class="back-to-top" id="backToTopBtn"><i class="fa-solid fa-arrow-up"></i></button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
